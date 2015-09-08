@@ -3,7 +3,7 @@ var mocha = require('gulp-mocha');
 var jshint = require('gulp-jshint');
 
 gulp.task('test', function () {
-    return gulp.src('square-month.test.js', {read: false})
+    return gulp.src('square-month.tests.js', {read: false})
         .pipe(mocha({reporter: 'nyan'}));
 });
 
