@@ -6,7 +6,7 @@
             last = new Date(year, month + 1);
 
         // True last
-        last.setDate(last.getDate() - 1)
+        last.setDate(last.getDate() - 1);
 
         for (i = 1, j = first.getDay(); i < j; i += 1) {
             date = new Date(first);

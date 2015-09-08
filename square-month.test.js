@@ -6,12 +6,12 @@ describe('SquareMonth', function() {
     it('function should be return list', function () {
         var list = SquareMonth(2015, 8);
         assert.ok(Array.isArray(list), 'it is not list');
-    })
+    });
 
     it('function should be return non empty list', function () {
         var list = SquareMonth(2015, 8);
         assert.notEqual(list.length, 0, 'it is empty list');
-    })
+    });
 
     it('first day should be a Monday', function () {
         var list = SquareMonth(2015, 8);
