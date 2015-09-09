@@ -1,5 +1,8 @@
 # SquareMonth
 
+[![Build Status](https://travis-ci.org/codefo/square-month.svg)](https://travis-ci.org/codefo/square-month.svg)
+[![Dependencies](https://david-dm.org/codefo/square-month/dev-status.svg)](https://david-dm.org/codefo/square-month/dev-status.svg)
+
 SquareMonth – simple library for getting all days in a squared month.
 
 For example: if you want to display calendar like this:
