@@ -5,6 +5,10 @@
 
 SquareMonth – simple library for getting all days in a squared month.
 
+<a href="https://evilmartians.com/?utm_source=square-month">
+<img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg" alt="Sponsored by Evil Martians" width="236" height="54">
+</a>
+
 For example: if you want to display calendar like this:
 
 > September 2015
