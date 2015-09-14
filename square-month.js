@@ -8,7 +8,9 @@
         // True last
         last.setDate(last.getDate() - 1);
 
-        for (i = 1, j = first.getDay(); i < j; i += 1) {
+        j = first.getDay() ? first.getDay() : 7;
+
+        for (i = 1; i < j; i += 1) {
             date = new Date(first);
             date.setDate(date.getDate() - i);
             result.unshift(date);
@@ -18,7 +20,9 @@
             result.push(new Date(year, month, i));
         }
 
-        for (i = 1, j = 7 - last.getDay(); i <= j; i += 1) {
+        j = last.getDay() ? 7 - last.getDay() : 0;
+
+        for (i = 1; i <= j; i += 1) {
             date = new Date(last);
             date.setDate(date.getDate() + i);
             result.push(date);

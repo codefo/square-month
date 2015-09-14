@@ -39,9 +39,9 @@ describe('SquareMonth', function() {
       assert.equal(list.length, 35);
     });
 
-    it('list for 11/2015 should have 35 items', function () {
+    it('list for 11/2015 should have 42 items', function () {
       var list = SquareMonth(2015, 10);
 
-      assert.equal(list.length, 35);
+      assert.equal(list.length, 42);
     });
 });
