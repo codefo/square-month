@@ -11,7 +11,7 @@ gulp.task('test', function () {
 });
 
 gulp.task('lint', function() {
-    return gulp.src('./*.js')
+    return gulp.src(['./*.js', '!./*.min.js'])
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
 });
