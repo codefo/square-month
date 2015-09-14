@@ -1,3 +1,7 @@
+// SquareMonth 0.1.1
+// Gleb Pospelov <codefo@codefo.com>
+// https://github.com/codefo/square-month
+
 (function () {
     var SquareMonth = function (year, month) {
         var i, j, date,
